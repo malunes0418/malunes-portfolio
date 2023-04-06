@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://kit.fontawesome.com/78892e4322.js" crossorigin="anonymous"></script>
+		<title>Portolio</title>
+	</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<header>
+					<a href="#" class="logo"><span>BONI</span>FACIO</a>
+					<ul id="sidemenu">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Projects</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+						<i class="fas fa-times" onclick="closemenu()"></i>
+					</ul>
+					<i class="fas fa-bars" onclick="openmenu()"></i>
+				</header>
+				<div class="header-text">
+					<p>Your Friendly Developer</p>
+					<h2>Hi, I am <span>Bonifacio</span><br />from the Philippines!</h2>
+				</div>
+			</div>
+		</div>
+		<!-- --------------about-------------- -->
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="about-col-1">
+						<img src="images/profile.png" alt="" />
+					</div>
+					<div class="about-col-2">
+						<h2 class="sub-title">About Me</h2>
+						<p>
+							<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis, risus eget finibus malesuada, diam enim finibus
+							odio, vel molestie mi dolor et lectus. Mauris cursus quis risus non ultrices. Cras dignissim metus quis tortor auctor, sit
+							amet lobortis sapien elementum. Cras rutrum nec tellus id vestibulum. Cras velit lorem, pulvinar ut quam placerat, posuere
+							cursus risus. Maecenas malesuada turpis non purus venenatis, sit amet porta mauris vehicula. Nam efficitur non lectus et
+							tempor. Curabitur feugiat in sem et dictum. -->
+							I am a fresh graduate of BSIT. I am currently looking for a job as a backend web developer. I have been learning web
+							development for the past 4 years. I have developed a couple of websites using PHP and MySQL. I am also familiar with Node.js
+							and Ruby on Rails. I like to learn new things and I am always open to new opportunities. Also, I love Taylor Swift!
+						</p>
+
+						<div class="tab-titles">
+							<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+							<p class="tab-links" onclick="opentab('education')">Education</p>
+						</div>
+						<div class="tab-contents active-tab" id="skills">
+							<ul>
+								<li><span>Node.js</span><br />Implementing Node.js in Web</li>
+								<li><span>Ruby on Rails</span><br />Developing websites with Ruby on Rails</li>
+								<li><span>PHP</span><br />Building PHP Backend for Websites</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="experience">
+							<ul>
+								<!-- <li><span>2021 - Current</span><br />UI/UX Design Training at ET Institute</li> -->
+								<li><span>Fresh Graduate</span><br />Fresh Graduate</li>
+								<!-- <li><span>2019 - 2021</span><br />Team Lead at StarApp LLC.</li>
+								<li><span>2017 - 2019</span><br />UI/UX Design Executive at Coin Digital Ltd.</li> -->
+							</ul>
+						</div>
+						<div class="tab-contents" id="education">
+							<ul>
+								<li><span>2023</span><br />BSIT from Bulacan State University</li>
+								<li><span>2019</span><br />Graduated SHS from ACCESS COMPUTER COLLEGE</li>
+								<li><span>2016</span><br />Finished JHS in Sto.Domingo NHS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ---------------------services------------- -->
+		<div id="services">
+			<div class="container">
+				<h2 class="sub-title">My Services</h2>
+				<div class="services-list">
+					<div>
+						<i class="fa-solid fa-code"></i>
+						<h3>Web Development</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis, risus eget finibus malesuada, diam enim finibus
+							odio, vel molestie mi dolor et lectus.
+						</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-terminal"></i>
+						<h3>Backend Development</h3>
+						<p>
+							<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis, risus eget finibus malesuada, diam enim finibus
+							odio, vel molestie mi dolor et lectus. -->
+							A couple of years ago, I started learning backend web technologies. I started with PHP, then I moved on to Node.js. I have
+							developed a couple of websites using these technologies.
+						</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-database"></i>
+						<h3>Database Management</h3>
+						<p>
+							<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis, risus eget finibus malesuada, diam enim finibus
+							odio, vel molestie mi dolor et lectus. -->
+							I have been working with MySQL when I was still in college. I have been using it for my school projects and for my personal
+							projects. I am currently learning Firebase.
+						</p>
+						<a href="#">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ----------------------portfolio-------------- -->
+		<div id="portfolio">
+			<div class="container">
+				<h2 class="sub-title">My Work</h2>
+				<div class="work-list">
+					<div class="work">
+						<img src="images/work-1.png" alt="" />
+						<div class="layer">
+							<h4>Social Media App</h4>
+							<p>The app connects you to the talented people from all over the world. Download it from Playstore.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="images/work-2.png" alt="" />
+						<div class="layer">
+							<h4>Music App</h4>
+							<p>The app connects you to the talented people from all over the world. Download it from Playstore.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="images/work-3.png" alt="" />
+						<div class="layer">
+							<h4>Online Store App</h4>
+							<p>The app connects you to the talented people from all over the world. Download it from Playstore.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn">See more</a>
+			</div>
+		</div>
+		<!-- -----------------contact------------------ -->
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+						<h2 class="sub-title">Contact Me</h2>
+						<p><i class="fa-solid fa-paper-plane"></i>caymalu@gmail.com</p>
+						<p><i class="fa-solid fa-square-phone"></i>09284161654</p>
+						<div class="social-icons">
+							<a href="#"><i class="fa-brands fa-facebook"></i></a>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+						</div>
+						<a href="images/my-cv.pdf" download="MalunesBonifacioCV" class="btn btn2">Download CV</a>
+					</div>
+					<div class="contact-right">
+						<form action="">
+							<input type="text" name="Name" placeholder="Your Name" required />
+							<input type="email" name="Email" placeholder="Your Email" required />
+							<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+							<button type="submit" class="btn btn2">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Made with Love <i class="fa-solid fa-heart"></i> by Bonifacio D. Malunes Jr.</p>
+			</div>
+		</div>
+		<script>
+			var tablinks = document.getElementsByClassName('tab-links');
+			var tabcontents = document.getElementsByClassName('tab-contents');
+
+			function opentab(tabname) {
+				for (tablink of tablinks) {
+					tablink.classList.remove('active-link');
+				}
+				for (tabcontent of tabcontents) {
+					tabcontent.classList.remove('active-tab');
+				}
+				event.currentTarget.classList.add('active-link');
+				document.getElementById(tabname).classList.add('active-tab');
+			}
+
+			var sidemenu = document.getElementById('sidemenu');
+			function openmenu() {
+				sidemenu.style.right = '0';
+			}
+			function closemenu() {
+				sidemenu.style.right = '-200px';
+			}
+
+			window.addEventListener('scroll', function () {
+				var nav = document.querySelector('header');
+				nav.classList.toggle('sticky', window.scrollY > 0);
+			});
+		</script>
+	</body>
+</html>
